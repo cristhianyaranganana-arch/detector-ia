@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "detector-ia"
+version = "1.0.1"
+description = "Detector de texto generado por IA: motor heurístico (sin dependencias) + motor neuronal (perplejidad GPT-2), con API y demo web."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Contribuidores de Detector IA" }]
+keywords = ["ia", "detector", "gpt", "chatgpt", "perplejidad", "burstiness", "nlp", "español"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Spanish",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+# El núcleo NO tiene dependencias obligatorias: funciona solo con la librería estándar.
+dependencies = []
+
+[project.optional-dependencies]
+api = ["fastapi>=0.104", "uvicorn>=0.24"]
+demo = ["streamlit>=1.29"]
+neural = ["torch>=2.1", "transformers>=4.36"]
+dev = [
+    "pytest>=7.4",
+    "httpx>=0.25",
+    "ruff>=0.1",
+    "fastapi>=0.104",
+    "uvicorn>=0.24",
+]
+all = ["detector-ia[api,demo,neural]"]
+
+[project.scripts]
+detector-ia = "detector_ia.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/TU_USUARIO/detector-ia"
+Issues = "https://github.com/TU_USUARIO/detector-ia/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["detector_ia", "api"]

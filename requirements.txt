@@ -1,0 +1,18 @@
+# El núcleo de `detector-ia` NO requiere dependencias (solo librería estándar).
+# Este archivo agrupa las dependencias opcionales para uso rápido.
+
+# API (FastAPI)
+fastapi>=0.104
+uvicorn>=0.24
+
+# Demo web (Streamlit)
+streamlit>=1.29
+
+# Motor neuronal (perplejidad GPT-2) — opcional, pesado
+# torch>=2.1
+# transformers>=4.36
+
+# Desarrollo / tests
+pytest>=7.4
+httpx>=0.25
+ruff>=0.1

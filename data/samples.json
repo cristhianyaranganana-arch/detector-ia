@@ -1,0 +1,77 @@
+{
+  "description": "Muestras ilustrativas para pruebas y demostraciones. Los textos 'ai' imitan el estilo típico de los LLM (frases homogéneas, conectores formales) y los 'human' exhiben señales de redacción natural (burstiness, coloquialismos, puntuación expresiva). No son muestras de evaluación realista: para eso usa el corpus HC3 (scripts/download_hc3.py).",
+  "samples": [
+    {
+      "id": "es-ai-1",
+      "label": "ai",
+      "lang": "es",
+      "text": "La inteligencia artificial ha transformado numerosos sectores de la sociedad en la última década. En primer lugar, ha optimizado procesos que antes requerían horas de trabajo manual. Además, permite analizar grandes volúmenes de datos en cuestión de segundos. Por otra parte, su implementación plantea desafíos éticos importantes. Por lo tanto, es fundamental establecer marcos regulatorios adecuados. En conclusión, la inteligencia artificial constituye una herramienta poderosa cuyo uso responsable depende de decisiones informadas."
+    },
+    {
+      "id": "es-ai-2",
+      "label": "ai",
+      "lang": "es",
+      "text": "El ejercicio físico regular ofrece múltiples beneficios para la salud. En primer lugar, mejora la capacidad cardiovascular y la circulación sanguínea. Además, fortalece el sistema inmunológico del cuerpo humano. Asimismo, reduce los niveles de estrés y ansiedad de manera considerable. Por otra parte, favorece la calidad del sueño. En conclusión, la práctica regular de ejercicio constituye un pilar fundamental del bienestar general."
+    },
+    {
+      "id": "es-ai-3",
+      "label": "ai",
+      "lang": "es",
+      "text": "El cambio climático representa uno de los mayores desafíos de nuestra época. En primer lugar, el aumento de las temperaturas globales amenaza los ecosistemas. Además, el deshielo de los polos provoca el ascenso del nivel del mar. Es importante señalar que las emisiones industriales constituyen el factor principal. Por consiguiente, resulta urgente adoptar políticas energéticas sostenibles. En definitiva, el futuro del planeta depende de las acciones presentes."
+    },
+    {
+      "id": "es-human-1",
+      "label": "human",
+      "lang": "es",
+      "text": "Ayer fui al mercado con hambre y compré de todo, en serio. Mi abuela siempre dice «compra poco pero compra bien»... como si fuera tan fácil. Total que gasté cuarenta euros ¡en fruta! ¿Quién me avisa que las cerezas de junio están carísimas? Nadie. Para la próxima hago lista (y no me desvío ni un metro del presupuesto, jaja)."
+    },
+    {
+      "id": "es-human-2",
+      "label": "human",
+      "lang": "es",
+      "text": "Mira, te resumo la reunión de hoy: nada nuevo. El jefe habló de 'sinergias' (otra vez) y de 'alinear objetivos'... o sea, nada. Salí con dolor de cabeza y me fui directo por un café. ¿Lo bueno? Mañana es viernes. ¿Lo malo? Quedan ocho horas de esto. Aguanta, compañero."
+    },
+    {
+      "id": "es-human-3",
+      "label": "human",
+      "lang": "es",
+      "text": "Reunión a las 8 de la mañana. Otra vez. Café malo, sillas incómodas y cuarenta diapositivas sobre 'transformación digital'. ¿Alguien piensa en los niños? Bueno, en los becarios, que es lo mismo. Me dormí cinco minutos — que conste en acta — y nadie dijo nada. Fin."
+    },
+    {
+      "id": "en-ai-1",
+      "label": "ai",
+      "lang": "en",
+      "text": "Artificial intelligence has transformed numerous industries over the past decade. Firstly, it has automated processes that previously required hours of manual labor. Furthermore, machine learning algorithms can analyze vast amounts of data in seconds. Additionally, these technologies enable more informed decision-making across organizations. However, the implementation of such systems raises significant ethical concerns. In conclusion, artificial intelligence represents a powerful tool whose responsible use depends on careful regulation."
+    },
+    {
+      "id": "en-ai-2",
+      "label": "ai",
+      "lang": "en",
+      "text": "Remote work offers significant advantages for both employees and organizations. Firstly, it reduces commuting time and associated costs. Additionally, workers enjoy greater flexibility in managing their schedules. Moreover, companies can access talent from different geographic regions. Consequently, productivity tends to increase in well-structured remote environments. In summary, remote work constitutes a viable model for the future of professional collaboration."
+    },
+    {
+      "id": "en-ai-3",
+      "label": "ai",
+      "lang": "en",
+      "text": "Electric vehicles represent a fundamental shift in the transportation sector. In the first place, they significantly reduce greenhouse gas emissions compared to combustion engines. Additionally, their operating costs are considerably lower over time. Moreover, advances in battery technology continue to extend their driving range. Therefore, the adoption of electric vehicles is expected to accelerate in the coming years. Ultimately, this transition constitutes an essential step toward sustainable mobility."
+    },
+    {
+      "id": "en-human-1",
+      "label": "human",
+      "lang": "en",
+      "text": "so anyway I tried fixing the sink myself. big mistake. HUGE. water everywhere, the cat's traumatized lol. called a plumber in the end — cost me $200. never again (until next time, probably). honestly just call a professional from the start, ok? save yourself the trouble."
+    },
+    {
+      "id": "en-human-2",
+      "label": "human",
+      "lang": "en",
+      "text": "Look, I've said this before and I'll say it again: the exam wasn't hard, you just didn't study. Sorry! Someone had to tell you. Make a schedule, put the phone away (yes, really) and grind. You'll thank me later... maybe. Or don't, your call honestly."
+    },
+    {
+      "id": "en-human-3",
+      "label": "human",
+      "lang": "en",
+      "text": "ok so the 'quick' grocery run turned into an hour. typical. they moved the bread AGAIN (why?? it's always somewhere new) and I forgot the one thing I went for... milk. got chips though, so not a total disaster lol. tomorrow: list on the fridge. we'll see how long that lasts."
+    }
+  ]
+}
